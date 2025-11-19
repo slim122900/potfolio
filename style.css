@@ -504,6 +504,9 @@ button:hover {
 
 /* ----------- MOBILE PHONES (480px – 599px) ----------- */
 @media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
     .navbar ul {
         gap: 14px;
     }
@@ -513,11 +516,12 @@ button:hover {
     }
 
     .intro h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
+        line-height: 1.2;
     }
 
     .avatar img {
-        width: 160px;
+        width: 200px;
     }
 
     .button {
@@ -527,7 +531,8 @@ button:hover {
     }
 
     .description {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.7;
     }
 
     .point {
@@ -535,30 +540,33 @@ button:hover {
     }
 
     .title {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
     }
 }
 
 /* ----------- SMALL MOBILE (300px – 479px) ----------- */
 @media (max-width: 480px) {
+  body {
+    font-size: 19px;
+  }
     .hero {
         padding: 110px 3% 40px;
     }
 
     .intro h1 {
-        font-size: 1.7rem;
+        font-size: 2.7rem;
     }
 
     .description {
-        font-size: 0.95rem;
+        font-size: 1.1rem;
     }
 
     .avatar img {
-        width: 140px;
+        width: 180px;
     }
 
     .navbar ul {
-        gap: 10px;
+        gap: 14px;
     }
 
     textarea {
