@@ -505,10 +505,11 @@ button:hover {
 /* ----------- MOBILE PHONES (480px – 599px) ----------- */
 @media (max-width: 600px) {
   body {
-    font-size: 18px;
+    font-size: 21px;
+    line-height: 1.6;
   }
     .navbar ul {
-        gap: 14px;
+        gap: 18px;
     }
 
     .hero {
@@ -516,12 +517,12 @@ button:hover {
     }
 
     .intro h1 {
-        font-size: 2.4rem;
-        line-height: 1.2;
+        font-size: 2.8rem;
+        line-height: 1.5;
     }
 
     .avatar img {
-        width: 200px;
+        width: 240px;
     }
 
     .button {
@@ -531,38 +532,38 @@ button:hover {
     }
 
     .description {
-        font-size: 1.2rem;
-        line-height: 1.7;
+        font-size: 1.4rem;
+        line-height: 1.85;
     }
 
     .point {
-        font-size: 2.4rem;
+        font-size: 3.5rem;
     }
 
     .title {
-        font-size: 2.6rem;
+        font-size: 3rem;
     }
 }
 
 /* ----------- SMALL MOBILE (300px – 479px) ----------- */
 @media (max-width: 480px) {
   body {
-    font-size: 19px;
+    font-size: 21px;
   }
     .hero {
         padding: 110px 3% 40px;
     }
 
     .intro h1 {
-        font-size: 2.7rem;
+        font-size: 2.8rem;
     }
 
     .description {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .avatar img {
-        width: 180px;
+        width: 240px;
     }
 
     .navbar ul {
